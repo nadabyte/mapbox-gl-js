@@ -33,7 +33,7 @@ import {setCacheLimits} from '../util/tile_request_cache.js';
 
 import type {PointLike} from '@mapbox/point-geometry';
 import type {RequestTransformFunction} from '../util/mapbox.js';
-import type {LngLatLike, LngLatElevation} from '../geo/lng_lat.js';
+import type {LngLatLike} from '../geo/lng_lat.js';
 import type {LngLatBoundsLike} from '../geo/lng_lat_bounds.js';
 import type {StyleOptions, StyleSetterOptions} from '../style/style.js';
 import type {MapEvent, MapDataEvent} from './events.js';
